@@ -1,0 +1,168 @@
+/****************************Top Nav*********************/
+.navBar .selectBar{
+   font-weight:700;
+   font-size: 20px;
+}
+/****************************Float Menu*********************/
+.P1,.P2, .P3, .P4, .P5, li a{
+   font-weight: 700;
+   font-size: 20px;
+}
+/****************************Home Intro*********************/
+#homeNavBar{
+   display:block;
+   float:left;
+   position:fixed;
+   margin-left: -17.5%;
+   margin-top: 20%;
+   color:orange;
+   font-family: "Chalkboard";
+   text-align:center;
+   background-color: rgba(255, 165, 0, 0.04);
+   border-radius: 15px;
+   padding-left: 5px;
+   padding-right: 5px;
+}
+#homeIntro{
+   margin-left: 20%;
+   margin-right: 20%;
+   line-height:1.6;
+   font-size: 150%;
+   color:black;
+   scroll-behavior: smooth;
+}
+#homeTitle{
+   font-size:40px;
+   font-weight: 700;
+   font-family: 'Roboto Slab',serif;
+   margin-top: auto;
+   padding-top: 95%;
+   text-align:center;
+}
+.homeStrong{
+   font-size: 20px;
+   word-wrap: break-word;
+   font-family: 'Open Sans',sans-serif;
+   font-weight: 700;
+}
+
+#homeIntro a{
+   font-style:italic;
+   color: orange;
+}
+#quoteImage{
+   width: 80%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 10px;
+   border-radius: 15px;
+}
+#bookCover{
+   position:absolute;
+   margin-left: -20%;
+   margin-right: -20%;
+   height:100%;
+   width:100%;
+}
+.homeH2{
+   margin-top: 30px;
+   font-size: 30px;
+   font-family: 'Roboto Slab',serif;
+   font-weight: 700;
+   padding-top: 30px;
+}
+
+#homeIntro p{
+   margin: 10px 40px 30px 40px;
+   text-align: justify;
+   font-family: "Chalkboard SE";
+}
+#homeIntro ol{
+   list-style-type: -moz-ethiopic-numeric;
+   font-size: smaller;
+   font-family: "Chalkboard SE";
+   margin-left: 40px;
+   background-color: rgba(205, 149, 100, 0.45);
+   border-radius: 15px;
+   padding-left: 10px;
+   padding-right: 10px;
+}
+.ita{
+   font-style:italic;
+}
+
+/****************************Part Intro*********************/
+.P_Intro{
+   padding-top: 40px;
+   margin-left: 20%;
+   margin-right: 20%;
+   line-height: 1.6;
+   font-family: "Chalkboard SE";
+}
+.pH1{
+   font-size: 30px;
+   font-family: "Chalkboard SE",serif;
+   font-weight: 700;
+   padding-top: 30px;
+}
+.P_Intro .quote{
+   font-size:20px;
+   text-align:center;
+}
+.P_Intro blockquote{
+   display: block;
+   font-size: 20px;
+   margin: 20px 40px 20px 40px;
+   color: black;
+   font-style: italic;
+   text-align:justify;
+}
+.P_Intro p{
+   margin: 30px 0 30px 0;
+   text-align:justify;
+   font-size:30px;
+}
+.P_Intro ul{
+   list-style: numeric;
+   font-size: 20px;
+   text-align: justify;
+   padding-left: 60px;
+}
+.P_Intro img{
+   width: auto;
+   height: 500px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 10px;
+   border-radius: 15px;
+}
+
+/****************************Story Feeds*********************/
+.story{
+   padding-top: 40px;
+   margin-left: 20%;
+   margin-right: 20%;
+   line-height: 1.6;
+   font-family: "Chalkboard SE";
+   font-size: 30px;
+}
+.story img{
+   width: auto;
+   height: 400px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 10px;
+   border-radius: 15px;
+}
+.story h2{
+   font-size:35px;
+   text-align: center;
+}
+.story p{
+   text-align: justify;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
